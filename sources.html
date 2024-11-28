@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="popimage.ico" sizes="64x64" type="image/x-icon">
+    <title>Boîtes avec Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 500px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .box2 {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 300px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .box p {
+            margin-top: 0px;
+            text-align: left;
+        }
+
+        #left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Source de la page</h1>
+    <div class="box">
+        <img src="https://logo-marque.com/wp-content/uploads/2020/09/Wikipedia-Logo.png" alt="Image du logo de Wikipédia">
+        <h4>Sources :</h4>
+        <p><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipédia</a></p>
+        <p><a href="https://logo-marque.com/wikipedia-logo/">Logo-Marque</a></p>
+        <p><a href="https://github.com/">Github</a></p>
+        <p><a href="https://www.metmuseum.org/art/collection/search/245829">MET Museum</a></p>
+        <p><a href="mailto:Celestinlallement@outlook.com">Lallement Célestin</a></p>
+    </div>
+    <div class="box">
+        <h4><a href="index.html">Retour</a></h4>
+    </div>
+</body>
+</html>
